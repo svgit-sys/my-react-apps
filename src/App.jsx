@@ -1,4 +1,5 @@
 import Welcome from "./components/Welcome";
+import Home from "./components/Home";
 
 
 export default function App(){
@@ -6,7 +7,8 @@ export default function App(){
   return(
 
     <div>
-      <h1>Welomce  CI CD !! </h1>
+      <Welcome />
+      <Home />
     </div>
   );
 }
